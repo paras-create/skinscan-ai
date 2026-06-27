@@ -8,6 +8,27 @@ interface ProductCardsProps {
 }
 
 function ProductCards({ products, detectedConditions }: ProductCardsProps) {
+  const buildFallbackImage = (product: Product) => {
+    const initials = `${product.brand.charAt(0)}${product.name.charAt(0)}`.toUpperCase();
+    const svg = `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+        <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#155eef"/>
+            <stop offset="100%" stop-color="#12b3a8"/>
+          </linearGradient>
+        </defs>
+        <rect width="600" height="400" rx="32" fill="url(#bg)"/>
+        <circle cx="480" cy="90" r="88" fill="rgba(255,255,255,0.12)"/>
+        <circle cx="120" cy="320" r="110" fill="rgba(255,255,255,0.08)"/>
+        <rect x="186" y="86" width="228" height="228" rx="32" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.28)"/>
+        <text x="300" y="215" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff">${initials}</text>
+        <text x="300" y="268" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="600" fill="rgba(255,255,255,0.88)">${product.brand}</text>
+      </svg>
+    `;
+    return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+  };
+
   const renderStars = (rating: number) => {
     const stars = [];
     const fullStars = Math.floor(rating);
@@ -76,9 +97,10 @@ function ProductCards({ products, detectedConditions }: ProductCardsProps) {
                   src={product.image}
                   alt={product.name}
                   className="product-image"
+                  loading="lazy"
+                  decoding="async"
                   onError={(e) => {
-                    (e.target as HTMLImageElement).src =
-                      "https://images.pexels.com/photos/3641056/pexels-photo-3641056.jpeg?auto=compress&cs=tinysrgb&w=150";
+                    (e.target as HTMLImageElement).src = buildFallbackImage(product);
                   }}
                 />
                 {matchedCondition && (

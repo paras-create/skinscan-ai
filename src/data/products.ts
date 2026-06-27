@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: "Vitamin C Brightening Serum",
     brand: "CeraVe",
     price: "$18",
-    image: "https://images.pexels.com/photos/3641056/pexels-photo-3641056.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products/skin-renewing-vitamin-c-serum/vitamin-c-serum_front.jpg?rev=8ccc2b38cf20438a964296327feabb93&w=1024&hash=C1F31E0CC59A1F5474536ADFA07F4C48",
     targets: ["dark_circles", "pigmentation"],
     description: "Reduces dark spots and brightens skin tone with powerful Vitamin C",
     rating: 4.5
@@ -25,7 +25,7 @@ export const products: Product[] = [
     name: "Retinol Anti-Aging Cream",
     brand: "Olay",
     price: "$24",
-    image: "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=900&q=80",
     targets: ["wrinkles", "fine_lines"],
     description: "Smooths fine lines and wrinkles with proven retinol formula",
     rating: 4.7
@@ -35,7 +35,7 @@ export const products: Product[] = [
     name: "Salicylic Acid Acne Treatment",
     brand: "La Roche-Posay",
     price: "$15",
-    image: "https://images.pexels.com/photos/3783379/pexels-photo-3783379.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://www.laroche-posay.us/on/demandware.static/Sites-lrp-us-Site/-/en_US/v1747218861373/dist/images/icons/search.svg",
     targets: ["acne", "oily_skin"],
     description: "Clears acne and controls oil production with 2% salicylic acid",
     rating: 4.6
@@ -45,7 +45,7 @@ export const products: Product[] = [
     name: "Niacinamide Pore Minimizer",
     brand: "The Ordinary",
     price: "$6",
-    image: "https://images.pexels.com/photos/4298095/pexels-photo-4298095.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwce8a7cdf/Images/products/The%20Ordinary/rdn-niacinamide-10pct-zinc-1pct-30ml.png?sw=860&sh=860&sm=fit",
     targets: ["oily_skin", "pigmentation"],
     description: "Reduces pore appearance and regulates sebum production",
     rating: 4.4
@@ -55,7 +55,7 @@ export const products: Product[] = [
     name: "Hyaluronic Acid Eye Cream",
     brand: "Neutrogena",
     price: "$12",
-    image: "https://images.pexels.com/photos/4460374/pexels-photo-4460374.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80",
     targets: ["dark_circles", "wrinkles"],
     description: "Hydrates under-eye area to reduce dark circles and fine lines",
     rating: 4.3
@@ -65,7 +65,7 @@ export const products: Product[] = [
     name: "Alpha Arbutin Dark Spot Serum",
     brand: "The Inkey List",
     price: "$10",
-    image: "https://images.pexels.com/photos/4460375/pexels-photo-4460375.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=900&q=80",
     targets: ["pigmentation", "dark_circles"],
     description: "Fades dark spots and hyperpigmentation effectively",
     rating: 4.5
@@ -75,7 +75,7 @@ export const products: Product[] = [
     name: "Clay Mask for Oily Skin",
     brand: "Aztec Secret",
     price: "$9",
-    image: "https://images.pexels.com/photos/4041393/pexels-photo-4041393.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://aztecsecret.com/wp-content/uploads/2021/11/IMG_67671-600x900.jpg",
     targets: ["oily_skin", "acne"],
     description: "Deep cleansing clay mask that absorbs excess oil",
     rating: 4.2
@@ -85,7 +85,7 @@ export const products: Product[] = [
     name: "Peptide Wrinkle Repair Serum",
     brand: "Peter Thomas Roth",
     price: "$39",
-    image: "https://images.pexels.com/photos/4041394/pexels-photo-4041394.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?auto=format&fit=crop&w=900&q=80",
     targets: ["wrinkles", "fine_lines"],
     description: "Advanced peptide complex for wrinkle reduction",
     rating: 4.8
@@ -95,7 +95,7 @@ export const products: Product[] = [
     name: "Benzoyl Peroxide Acne Gel",
     brand: "PanOxyl",
     price: "$8",
-    image: "https://images.pexels.com/photos/4041395/pexels-photo-4041395.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://panoxyl.com/wp-content/uploads/2022/05/Acne-Foaming-Wash.png",
     targets: ["acne"],
     description: "Maximum strength acne spot treatment",
     rating: 4.3
@@ -105,7 +105,7 @@ export const products: Product[] = [
     name: "Caffeine Under Eye Solution",
     brand: "The Ordinary",
     price: "$7",
-    image: "https://images.pexels.com/photos/4041396/pexels-photo-4041396.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw97d3044c/Images/products/The%20Ordinary/2020-08-17-ORD-Product-Caff-Sol-5pct-ECCG-Eye-Serum.png?sw=860&sh=860&sm=fit",
     targets: ["dark_circles", "puffiness"],
     description: "Depuffs and brightens tired under-eye area",
     rating: 4.4
@@ -115,7 +115,7 @@ export const products: Product[] = [
     name: "Azelaic Acid Brightening Cream",
     brand: "Paula's Choice",
     price: "$28",
-    image: "https://images.pexels.com/photos/4041397/pexels-photo-4041397.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://images.unsplash.com/photo-1612817159949-195a8d5f6a7d?auto=format&fit=crop&w=900&q=80",
     targets: ["acne", "pigmentation"],
     description: "Multi-action treatment for acne and dark spots",
     rating: 4.6
@@ -125,7 +125,7 @@ export const products: Product[] = [
     name: "Matte Control Moisturizer",
     brand: "CeraVe",
     price: "$16",
-    image: "https://images.pexels.com/photos/4041398/pexels-photo-4041398.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products/moisturizers/pm-facial-moisturizing-lotion/cerave-pm-facial-moisturizing-lotion-front.jpg?rev=9f31f91d2d444d8ca9bafda1c4a7d0db&w=1024&hash=0A4EAF78A2B8E0A05E4A1D29A1A1D6C5",
     targets: ["oily_skin"],
     description: "Oil-free moisturizer for matte finish all day",
     rating: 4.5
@@ -135,7 +135,7 @@ export const products: Product[] = [
     name: "Collagen Firming Night Cream",
     brand: "L'Oreal Paris",
     price: "$14",
-    image: "https://images.pexels.com/photos/4298100/pexels-photo-4298100.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=900&q=80",
     targets: ["wrinkles", "fine_lines"],
     description: "Restores skin elasticity while you sleep",
     rating: 4.4
@@ -145,7 +145,7 @@ export const products: Product[] = [
     name: "Tranexamic Acid Dark Spot Treatment",
     brand: "Good Molecules",
     price: "$12",
-    image: "https://images.pexels.com/photos/4298101/pexels-photo-4298101.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://images.unsplash.com/photo-1615397349754-cfa2066a298b?auto=format&fit=crop&w=900&q=80",
     targets: ["pigmentation"],
     description: "Targeted treatment for stubborn dark spots",
     rating: 4.5
@@ -155,7 +155,7 @@ export const products: Product[] = [
     name: "Tea Tree Oil Acne Serum",
     brand: "The Body Shop",
     price: "$18",
-    image: "https://images.pexels.com/photos/4298102/pexels-photo-4298102.jpeg?auto=compress&cs=tinysrgb&w=150",
+    image: "https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=900&q=80",
     targets: ["acne", "oily_skin"],
     description: "Natural tea tree oil to fight acne bacteria",
     rating: 4.2
